@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>Categories List</title>
+    <link href="https://freepngimg.com/download/happy/31921-5-happy-transparent-background.png" rel="icon"
+        type="image/x-icon" />
+    <style>
+        h2.caps {
+            text-transform: capitalize;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        body {
+            padding: 10px 24px
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Categories</h1><br>
+    <a href="http://localhost:3000/api/categories" target="_blank" style="position: absolute; top: 35px; right: 35px;">
+        JSON View</a>
+    <% categories.forEach(function(category) { %>
+    <h2 class="caps"><%= category.category_name %> &nbsp;&nbsp;<span style="font-size: 12px">No. of Products:
+            <%= category.noOfProducts %></span></h2>
+    <table>
+        <tr>
+            <th>Product ID</th>
+            <th>Brand</th>
+            <th>Name / Model</th>
+            <th>Price</th>
+        </tr>
+        <% category.products.forEach(function(product) { %>
+        <tr>
+            <td><%= product.product_id %></td>
+            <td><%= product.brand_name %></td>
+            <td><%= product.model_no %></td>
+            <td>&#8377;<%= product.price %></td>
+        </tr>
+        <% }); %>
+    </table>
+    <br>
+    <br>
+    <br>
+    <% }); %>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+{
+  "name": "ecommercetask",
+  "version": "1.0.0",
+  "description": "Task to list all categories with associated products count and products using node js and mongodb.",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinothd07/E-Commerce-Task.git"
+  },
+  "keywords": [
+    "products",
+    "categories",
+    "node",
+    "js",
+    "mongodb"
+  ],
+  "author": "Vinoth Kumar D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinothd07/E-Commerce-Task/issues"
+  },
+  "homepage": "https://github.com/vinothd07/E-Commerce-Task#readme",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongodb": "^3.2.7"
+  }
+}

@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5d207d805dbf58e539e969b2"},"category_id":1001.0,"category_name":"mobiles"}
+{"_id":{"$oid":"5d207db25dbf58e539e969b3"},"category_id":1002.0,"category_name":"laptops"}
+{"_id":{"$oid":"5d207dfb5dbf58e539e969b4"},"category_id":1003.0,"category_name":"desktops"}
+{"_id":{"$oid":"5d207e065dbf58e539e969b5"},"category_id":1004.0,"category_name":"accessories"}

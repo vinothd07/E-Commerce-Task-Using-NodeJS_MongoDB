@@ -1,0 +1,12 @@
+{"_id":{"$oid":"5d20803e5dbf58e539e969b6"},"product_id":101.0,"category_id":1001.0,"brand_name":"Samsung","model_no":"S10+","price":49000.0}
+{"_id":{"$oid":"5d2080995dbf58e539e969b7"},"product_id":102.0,"category_id":1001.0,"brand_name":"One plus","model_no":"7 pro","price":48999.0}
+{"_id":{"$oid":"5d20809b5dbf58e539e969b8"},"product_id":103.0,"category_id":1001.0,"brand_name":"Xiaomi","model_no":"MI 9","price":35000.0}
+{"_id":{"$oid":"5d20821a5dbf58e539e969b9"},"product_id":105.0,"category_id":1002.0,"brand_name":"DELL","model_no":"Vostro 14","price":36990.0}
+{"_id":{"$oid":"5d20821a5dbf58e539e969ba"},"product_id":106.0,"category_id":1002.0,"brand_name":"Asus","model_no":"Vivobook 14 i5","price":48990.0}
+{"_id":{"$oid":"5d20821a5dbf58e539e969bb"},"product_id":107.0,"category_id":1002.0,"brand_name":"Asus","model_no":"Zenbook 13 core i5","price":62990.0}
+{"_id":{"$oid":"5d20821c5dbf58e539e969bc"},"product_id":108.0,"category_id":1002.0,"brand_name":"Apple","model_no":"Macbook m3","price":112990.0}
+{"_id":{"$oid":"5d2082685dbf58e539e969bd"},"product_id":104.0,"category_id":1002.0,"brand_name":"DELL","model_no":"Inspiron 14","price":29990.0}
+{"_id":{"$oid":"5d20834f5dbf58e539e969be"},"product_id":109.0,"category_id":1003.0,"brand_name":"DELL","model_no":"Intel core i7-7700 19.5","price":55020.0}
+{"_id":{"$oid":"5d20834f5dbf58e539e969bf"},"product_id":110.0,"category_id":1003.0,"brand_name":"Lenova","model_no":"Celeron dual core","price":19990.0}
+{"_id":{"$oid":"5d2083505dbf58e539e969c0"},"product_id":111.0,"category_id":1003.0,"brand_name":"Apple","model_no":"iMac 21.5-inch","price":92907.0}
+{"_id":{"$oid":"5d20841d5dbf58e539e969c1"},"product_id":112.0,"category_id":1004.0,"brand_name":"Apple","model_no":"AirPods with Wireless Charging Case","price":13621.55}
